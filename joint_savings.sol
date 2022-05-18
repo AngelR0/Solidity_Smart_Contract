@@ -20,7 +20,7 @@ contract JointSavings {
 		if (lastToWithdraw != recipient){
 			lastToWithdraw = recipient;
 		}
-		recipient.transfer(amount)
+		recipient.transfer(amount);
 		// Set lastWithdrawAmount equal amount
 		lastWithdrawAmount = amount;
 		
